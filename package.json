@@ -1,8 +1,14 @@
 {
   "name": "doctator",
-  "module": "index.ts",
+  "version": "0.0.1",
+  "module": "src/index.tsx",
+  "license": "MIT",
   "type": "module",
   "private": true,
+  "scripts": {
+    "start": "bun src/index.tsx",
+    "watch": "bun --watch src/index.tsx"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/marked-terminal": "^6.1.1"
