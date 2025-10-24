@@ -4,9 +4,16 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/marked-terminal": "^6.1.1"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "ink": "^6.3.1",
+    "marked": "^16.4.1",
+    "marked-terminal": "^7.3.0",
+    "react": "^19.2.0"
   }
 }
